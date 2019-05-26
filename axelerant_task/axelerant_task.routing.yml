@@ -1,0 +1,6 @@
+axelerant_task:
+  path: /page_json/{apiKey}/{nodeId}
+  defaults:
+    _controller: Drupal\axelerant_task\Controller\AxelerantTaskController::getNodeData
+  requirements:
+    _permission: 'access content'   
